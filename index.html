@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Support &amp; Help Center - Dala</title>
+    <meta name="description" content="Official Player Support, Contact Information, Restore Purchases, and Account Management Help Center for Dala on iOS, iPadOS, and Android.">
+    <style>
+        :root {
+            --bg-color: #0d0a07;
+            --card-bg: #18120b;
+            --card-inner: #211910;
+            --border-color: #382b1c;
+            --gold: #dfb15b;
+            --gold-bright: #fced9d;
+            --text-primary: #e6dfd5;
+            --text-secondary: #a69888;
+            --accent: #c49746;
+            --crimson: #b8332a;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.65;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 40px 48px;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.65);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .header h1 {
+            color: var(--gold);
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .header .subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(223, 177, 91, 0.12);
+            color: var(--gold-bright);
+            border: 1px solid rgba(223, 177, 91, 0.35);
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+
+        .contact-hero {
+            background: linear-gradient(180deg, rgba(223, 177, 91, 0.12) 0%, rgba(24, 18, 11, 0.95) 100%);
+            border: 1px solid rgba(223, 177, 91, 0.45);
+            border-radius: 12px;
+            padding: 28px 28px;
+            text-align: center;
+            margin-bottom: 36px;
+        }
+
+        .contact-hero h2 {
+            border: none;
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: var(--gold-bright);
+            font-size: 1.5rem;
+        }
+
+        .contact-hero p {
+            color: var(--text-primary);
+            max-width: 620px;
+            margin: 0 auto 20px auto;
+        }
+
+        .btn-support {
+            display: inline-block;
+            background: linear-gradient(180deg, #f4cf78 0%, #c9963b 100%);
+            color: #140d05 !important;
+            font-weight: 700;
+            font-size: 1.05rem;
+            padding: 13px 28px;
+            border-radius: 999px;
+            text-decoration: none !important;
+            box-shadow: 0 4px 16px rgba(223, 177, 91, 0.3);
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .btn-support:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(223, 177, 91, 0.45);
+        }
+
+        .contact-meta {
+            margin-top: 16px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        h2 {
+            color: var(--gold-bright);
+            font-size: 1.35rem;
+            margin-top: 32px;
+            margin-bottom: 14px;
+            border-left: 3px solid var(--gold);
+            padding-left: 12px;
+        }
+
+        .faq-card {
+            background: var(--card-inner);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin-bottom: 16px;
+        }
+
+        .faq-card h3 {
+            color: var(--gold);
+            font-size: 1.08rem;
+            margin-bottom: 8px;
+        }
+
+        .faq-card p, .faq-card li {
+            color: var(--text-primary);
+            font-size: 0.97rem;
+            margin-bottom: 8px;
+        }
+
+        .faq-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        ol, ul {
+            margin-left: 22px;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: var(--gold-bright);
+        }
+
+        a {
+            color: var(--gold);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: var(--gold-bright);
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 44px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.88rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 16px 12px;
+            }
+            .container {
+                padding: 24px 20px;
+            }
+            .header h1 {
+                font-size: 1.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Dala Player Support</h1>
+        <div class="subtitle">Traditional Sudanese Strategy Board Game &bull; Official Help Center</div>
+        <div class="badge">iOS &bull; iPadOS &bull; Android</div>
+    </div>
+
+    <div class="contact-hero">
+        <h2>Need Help or Have a Question?</h2>
+        <p>Whether you need assistance with an In-App Purchase, account sync, multiplayer matchmaking, bug reports, or gameplay feedback, reach out to us directly and we will be happy to assist you.</p>
+        <a class="btn-support" href="mailto:musahasbo044@gmail.com?subject=Dala%20App%20Support%20Request">Email Support: musahasbo044@gmail.com</a>
+        <div class="contact-meta">
+            Developer: <strong>Mousa Hasbo (Zool Studio)</strong> &bull; Typical Response Time: <strong>Within 24&ndash;48 Hours</strong>
+        </div>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-card">
+        <h3>1. How do I restore my previous In-App Purchases (Remove Ads / Level 6 Oracle)?</h3>
+        <p>Non-consumable purchases such as <strong>Remove Ads (Lifetime VIP)</strong> and <strong>Grandmaster Level 6 (The Oracle)</strong> are permanently tied to your Apple ID or Google Play account and can be restored on any device at no extra cost:</p>
+        <ol>
+            <li>Make sure you are signed in to the same Apple ID or Google Play account used for the original purchase.</li>
+            <li>Open <strong>Dala</strong> and tap <strong>RESTORE PURCHASES</strong> inside <strong>Pharaoh's Treasury</strong>, the <strong>AI Sacred Trials</strong> screen, the <strong>Coin Store</strong>, or <strong>Settings &rarr; Options &rarr; RESTORE PURCHASES</strong>.</li>
+            <li>Wait a moment for confirmation that your unlocked items have been restored.</li>
+        </ol>
+    </div>
+
+    <div class="faq-card">
+        <h3>2. How do I back up or sync my coins, ELO rating, and progress across devices?</h3>
+        <p>Open <strong>Settings &rarr; Options</strong> (or tap your <strong>Duelist Profile</strong> badge at the top of the Main Menu) and select <strong>Sign in with Apple</strong> or <strong>Sign in with Google</strong>. Once linked, your coins, ELO rating, campaign unlocks, and match statistics automatically sync to the cloud.</p>
+    </div>
+
+    <div class="faq-card">
+        <h3>3. How do I permanently delete my account and cloud data?</h3>
+        <p>You have full control over your account and data directly inside the app without needing to contact customer service:</p>
+        <ol>
+            <li>Open <strong>Dala</strong> and go to <strong>Settings &rarr; Options</strong> (under <em>Cloud Identity &amp; Sync</em>) or open your <strong>Duelist Profile</strong> from the Main Menu.</li>
+            <li>Tap the crimson <strong>DELETE ACCOUNT</strong> button.</li>
+            <li>Review the confirmation dialog and tap <strong>DELETE ACCOUNT</strong> to confirm.</li>
+        </ol>
+        <p>This permanently deletes your cloud player account, Cloud Save backup, linked Sign in with Apple / Google credentials, ELO rating, statistics, and local profile data immediately.</p>
+    </div>
+
+    <div class="faq-card">
+        <h3>4. How does "Play With Friend" private multiplayer work?</h3>
+        <p>From the Main Menu, tap <strong>Play &rarr; Play Online &rarr; Play With Friend</strong>. One player taps <strong>Create Game</strong> to generate a room code and shares that code with their friend, who taps <strong>Join Game</strong> and enters the code to start a live 1v1 duel.</p>
+    </div>
+
+    <div class="faq-card">
+        <h3>5. What should I include if I email Support about a technical issue?</h3>
+        <p>To help us resolve your issue as quickly as possible, please include:</p>
+        <ul>
+            <li>Your device model (e.g., iPhone 15, iPad Air) and OS version.</li>
+            <li>Your in-game Duelist Name (if applicable).</li>
+            <li>A brief description or screenshot of what happened.</li>
+        </ul>
+    </div>
+
+    <h2>Legal &amp; Privacy</h2>
+    <p>Learn how Dala handles data, security, and your privacy rights by reading our <a href="./PrivacyPolicy.html">Privacy Policy</a>. Direct support inquiries can always be sent to <a href="mailto:musahasbo044@gmail.com">musahasbo044@gmail.com</a>.</p>
+
+    <div class="footer">
+        &copy; 2026 Mousa Hasbo / Zool Studio &bull; Dala: Traditional Sudanese Strategy Board Game. All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>
